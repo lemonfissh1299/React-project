@@ -1,0 +1,55 @@
+.container {
+  padding: 30px;
+  height: 610px;
+  width: 1320px;
+  background: #ececec;
+  position: absolute;
+  bottom: 8px;
+  box-sizing: border-box;
+}
+
+.Temperature {
+  box-sizing: content-box;
+  height: 240px;
+}
+
+.Humidity {
+  box-sizing: border-box;
+  height: 280px;
+  width: 290px;
+  position:inherit;
+  bottom: -280px;
+ 
+}
+
+.Noise {
+  box-sizing: border-box;
+  height: 280px;
+  width: 330px;
+  position:inherit;
+  bottom: -280px;
+
+}
+
+.Rain {
+  box-sizing: border-box;
+  height: 280px;
+  width: 330px;
+  position:inherit;
+  bottom: -280px;
+
+}
+
+
+h1 {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 0.5;
+}
+
+p1 {
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 2.0;
+}
+
