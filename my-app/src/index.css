@@ -1,55 +1,13 @@
-.container {
-  padding: 30px;
-  height: 610px;
-  width: 1320px;
-  background: #ececec;
-  position: absolute;
-  bottom: 8px;
-  box-sizing: border-box;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.Temperature {
-  box-sizing: content-box;
-  height: 240px;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
-
-.Humidity {
-  box-sizing: border-box;
-  height: 280px;
-  width: 290px;
-  position:inherit;
-  bottom: -280px;
- 
-}
-
-.Noise {
-  box-sizing: border-box;
-  height: 280px;
-  width: 330px;
-  position:inherit;
-  bottom: -280px;
-
-}
-
-.Rain {
-  box-sizing: border-box;
-  height: 280px;
-  width: 330px;
-  position:inherit;
-  bottom: -280px;
-
-}
-
-
-h1 {
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 0.5;
-}
-
-p1 {
-  font-size: 15px;
-  font-weight: bold;
-  line-height: 2.0;
-}
-
